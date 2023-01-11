@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ZandiHubApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(ZandiHubApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(ZandiHubApplication.class, args);
+	}
 
 }
