@@ -1,0 +1,23 @@
+
+body {
+    background-color: #222222;
+    color: white;
+}
+
+body .card {
+    background-color: #444444;
+    color: inherit;
+}
+
+body .navbar {
+    background-color: #111111 !important;
+}
+
+body .navbar * {
+    color: inherit !important;
+}
+
+body .navbar-toggler {
+    background-color: #999999;
+    filter: invert();
+}
