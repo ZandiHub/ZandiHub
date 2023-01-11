@@ -5,6 +5,7 @@
     <title>Title</title>
 
     <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.css" />
+    <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/theme/toastui-editor-dark.css" />
 </head>
 
 <body>
@@ -15,11 +16,17 @@
 </body>
 
 <script>
+    /*시스템 설정에 따라 다크모드 전환 가능*/
+    const isBrowserDarkMode = window.matchMedia('(prefers-color-scheme: dark)')
+        .matches
+    let initTheme = isBrowserDarkMode ? 'dark' : 'light'
+
     const editor = new toastui.Editor({
         el: document.querySelector('#editor'),
         previewStyle: 'vertical',
         height: '800px',
-        initialValue: ''
+        initialValue: '',
+        theme : initTheme
     });
 </script>
 </html>
