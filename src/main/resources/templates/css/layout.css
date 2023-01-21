@@ -10,14 +10,17 @@ div.left {
     width: 25%;
     float: left;
 }
+
 div.right {
     width: 75%;
     float: right;
 }
+
 div.item-box {
     width: 100%;
     border-bottom: #111111 solid
 }
+
 div.description-box {
     width: 100%;
     border-bottom: #111111 solid

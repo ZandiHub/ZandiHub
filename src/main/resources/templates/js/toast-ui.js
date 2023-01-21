@@ -5,8 +5,7 @@ let initTheme = isBrowserDarkMode ? 'dark' : 'light'
 const editor = new toastui.Editor({
     el: document.querySelector('#editor'),
     previewStyle: 'vertical',
-    height: 'auto',
-    minHeight: '600px',
+    height: screen.height + 'px',
     initialValue: '',
     theme: initTheme,
 });
