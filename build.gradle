@@ -25,6 +25,8 @@ dependencies {
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation group: 'io.netty', name: 'netty-resolver-dns-native-macos', version: '4.1.87.Final'
 }
 
 tasks.named('test') {
