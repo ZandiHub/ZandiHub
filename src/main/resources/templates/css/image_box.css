@@ -1,0 +1,18 @@
+.images {
+    width: 100%;
+    height: auto;
+}
+.images img {
+    width: 30px;
+    object-fit: contain;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-auto-flow: row dense;
+}
+.imageFlex1 {
+    display: grid;
+    row-gap: 20px;
+}

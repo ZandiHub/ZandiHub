@@ -1,24 +1,33 @@
+.box-title {
+    text-align: center;
+    border-bottom: #111111 solid;
+}
+
+div {
+
+}
 div.left {
-    width: 75%;
+    width: 25%;
     float: left;
 }
 div.right {
-    width: 25%;
+    width: 75%;
     float: right;
 }
 div.item-box {
     width: 100%;
-    height: 900px;
+    border-bottom: #111111 solid
 }
-div.description {
+div.description-box {
     width: 100%;
-    height: 470px;
-    border: #111111 solid;
+    border-bottom: #111111 solid
 }
 div.title {
     width:100%;
-    height:70px;
+    height:100%;
     float:left;
-    border-bottom-width:thin;
+    border-bottom: #111111 solid
+}
+/*    border-bottom-width:thin;
     border-bottom-color:rgba(25,80,100,0);
-    border-bottom:solid;}
+    border-bottom:solid;}*/
